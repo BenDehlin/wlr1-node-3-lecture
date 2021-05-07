@@ -12,7 +12,8 @@
 
 ## What you will need to do if you want to fork and clone this project
 1. run `npm install` to install the dependencies I have added. You do not need to specify express massive and dotenv because the `package.json` knows that those are dependencies for this project from when I ran it already.
-2. run `nodemon` to start your server. Right now we have not added a frontend yet so this should be all you need to get started.
+2. create your own .env file with `CONNECTION_STRING` and `SERVER_PORT` inside. You don't need to add `.env` to your `.gitignore` because I already have done that for you but if this was your own project you would NEED TO DO THIS.
+3. run `nodemon` to start your server. Right now we have not added a frontend yet so this should be all you need to get started.
 
 ## What files are important for this project?
 1. Our starting point as always will be `./server/index.js`
